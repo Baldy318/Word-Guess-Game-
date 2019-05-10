@@ -1,0 +1,68 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/4d/1d/c6/4d1dc6739ed949aeb8d5a041d278d7a2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title-eb {
+    width: 40%;
+}
+
+.title-text-eb {
+    font-family: 'Faster-One';
+}
+
+.strokeme {
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  }
+
+.box-sizing {
+    box-sizing: border-box
+}
+h1 {
+    color:#000000;
+    background-color: #fff;
+    font-size: 60px;
+    padding: 2px;
+   }
+
+.button-container-eb {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+
+.para-eb {
+    font-family: 'Faster-One';
+    color: #fff;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.instruct-eb {
+    color: #fff;
+    background-color: #000000;
+    text-emphasis: bold;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.span-eb {
+    border: 4px solid #000000;
+    font-family: 'Faster-One';
+    background:#fff;
+    text-emphasis: bold;
+        
+}
+
+.button-text-eb {
+    font-size: 14px;
+}
+
+.stong-eb {
+    color: black;
+    margin: 10px;
+}
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess</title>
+    
+<!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+<!--Particular Font-->
+<link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    
+<!-- Reference to CSS page-->
+    <link rel="stylesheet" href="style.css">
+    
+<!--Reference to logic behind the word guess game -->
+    <script src="logic.js"></script>
+
+</head>
+<body>
+    
+ 
+    <div class="container">
+   
+    <!--Game-->
+    <div class="row"> 
+        
+        <div class="col-sm-12 mx-auto">
+            
+            <h1 class="text-center card-header strokeme mt-3 mb-2 title-text-eb"> Word Guess </h1>
+        </div> 
+    </div> 
+
+    <!--Instructions -->
+    <div class="row">
+        <div class="col-sm-8 mx-auto text-center mt-1">
+            <p class="para-eb pb-3 instruct-eb">
+                The objective of this game is to guess an 80s favorite TV show by guessing letters to fill in the blanks. The more guesses you get correct, the closer you'll be to figuring out that 80s favorite show.
+            </p>
+        </div>
+    </div>
+        
+    
+    <div class="row"> 
+
+        <!-- Where the player fills in the blanks -->
+        <div class="col-md-6 text-center my-auto p-2">
+            <div class="float-right">
+                <h2 class="puzzle-eb shadow-lg"><span id="puzzle-state" class="p-4 span-eb"> </span></h2>
+            </div>
+        </div>
+
+      
+        <div class="col-md-6">
+
+           
+            <div class="row"> 
+                <div class="col-sm ml-5 section-eb strokeme box">
+                    <p class="mb-0 para-eb">Wrong Guesses: <strong><span id="wrong-guesses" class="stong-eb"></span></strong></p>
+                </div>
+            </div>
+
+            
+            <div class="row"> 
+                <div class="col-sm ml-5 section-eb strokeme box-sizing">
+                    <p class="mb-0 para-eb" >Guesses Left: <strong><span id="guesses-left" class="stong-eb">9</span></strong></p>
+                    <p class="mb-0 para-eb" >Wins: <strong><span id="win-counter" class="stong-eb">0</span></strong></p>
+                    <p class="mb-0 para-eb" >Losses: <strong><span id="loss-counter" class="stong-eb">0</span></strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="row">
+        
+        <div class="col-sm-12 mx-auto text-center pt-4 button-container-eb">
+            <div><button type="button" class="btn btn-dark" onclick="gameReset()"><p class="mb-0 button-text-eb">Start Over!</p></button></div>
+            <img class="mt-4" width="200px">
+        </div>
+    </div> 
+
+</div> 
+
+
+</body>
